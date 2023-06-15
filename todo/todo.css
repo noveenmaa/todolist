@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  background-color: #2f4f4f;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#enter-element {
+  width: 40rem;
+  height: 5rem;
+  padding: 3rem;
+}
+#enterbutton {
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  left: 90px;
+  top: 10px;
+  background-color: #540075;
+  color: aliceblue;
+  border: none;
+  box-shadow: inset;
+  font-weight: bolder;
+}
+#intext {
+  position: relative;
+  left: 5px;
+  top: 10px;
+  width: 65%;
+  height: 40%;
+  border: 3px solid;
+  border-radius: 20px;
+  background-color: khaki;
+  font-weight: bolder;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+}
+.task {
+  display: flex;
+  flex-direction: row;
+}
+.text-input {
+  width: 25rem;
+  padding: 1rem;
+  border: 3px solid white;
+  background-color: black;
+  color: aliceblue;
+}
+.btnfun {
+  padding: 1rem;
+}
+.edit {
+  width: 5rem;
+  color: aliceblue;
+  background-color: #540075;
+}
+.delete {
+  width: 5rem;
+  color: aliceblue;
+  background-color: #540075;
+}
